@@ -1,0 +1,34 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+out/
+release/
+
+# 抓包 / 逆向临时数据（可能含真实 token、账号、设备 ID）
+recon/
+
+# 本机浏览器登录态副本
+.edge-profile/
+
+# AI 工具目录
+.trae/
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+
+# 环境变量
+.env
+.env.*
+
+# 日志
+*.log
+logs/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
