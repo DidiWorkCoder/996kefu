@@ -14,7 +14,7 @@
     "dev": "electron-vite dev",
     "build": "electron-vite build",
     "preview": "electron-vite preview",
-    "pack": "electron-vite build && electron-builder --win"
+    "pack": "electron-vite build && electron-builder --win --publish never"
   },
   "devDependencies": {
     "@types/node": "^24.13.4",
